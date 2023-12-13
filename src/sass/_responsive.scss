@@ -105,6 +105,9 @@
   .hero .container .headline .promisse p {
     font-size: 1rem;
   }
+  .portfolio .container .projects .item .id-project .name {
+    font-size: 1.25rem;
+  }
   .target .container .box {
     flex-direction: column;
     align-items: center;
@@ -138,6 +141,15 @@
   }
   .target .container .box .rightside li .title {
     font-size: 1.125rem;
+  }
+  .process .container p,
+  .services .container .msg-authority p {
+    font-size: 0.875rem;
+  }
+  .services .container .msg-authority .right,
+  .services .container .msg-authority .left {
+    max-width: 2rem;
+    margin-bottom: auto;
   }
 }
 @media (max-width: 430px) {

@@ -460,10 +460,8 @@
           line-height: 1.5;
           color: $lightGray;
           strong {
-            background: $gradientAccent;
-            background-clip: text;
-            -webkit-background-clip: text;
-            -webkit-text-fill-color: transparent;
+            color: $accentLight;
+            font-weight: 400;
           }
         }
       }
@@ -884,10 +882,8 @@
         text-align: center;
         color: $lightGray;
         strong {
-          background: $gradientAccent;
-          background-clip: text;
-          -webkit-background-clip: text;
-          -webkit-text-fill-color: transparent;
+          color: $accentLight;
+          font-weight: 400;
         }
       }
     }
@@ -981,7 +977,7 @@
           margin-right: 1.5rem;
           span {
             font-weight: 400;
-            color: $detailsLight;
+            color: $accentLight;
           }
         }
         ul {
@@ -995,7 +991,7 @@
             line-height: 1.5;
             span {
               font-weight: 400;
-              color: $detailsLight;
+              color: $accentLight;
             }
           }
         }
