@@ -1,0 +1,105 @@
+%container {
+  max-width: 1280px;
+  width: 100%;
+  margin-inline: auto;
+}
+// AREA CTA
+%cta-area {
+  display: flex;
+  flex-direction: column;
+  gap: 0.875rem;
+}
+%cta {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 1rem;
+  background: $gradientAccent;
+  color: $darkDefault;
+  max-width: 21rem;
+  width: 100%;
+  padding: 0.875rem 2rem;
+  border-radius: 0.25rem;
+  -webkit-border-radius: 0.25rem;
+  -moz-border-radius: 0.25rem;
+  -ms-border-radius: 0.25rem;
+  -o-border-radius: 0.25rem;
+  transition: all 0.2s ease-out;
+  -webkit-transition: all 0.2s ease-out;
+  -moz-transition: all 0.2s ease-out;
+  -ms-transition: all 0.2s ease-out;
+  -o-transition: all 0.2s ease-out;
+  &:hover {
+    transform: scale(0.97);
+    -webkit-transform: scale(0.97);
+    -moz-transform: scale(0.97);
+    -ms-transform: scale(0.97);
+    -o-transform: scale(0.97);
+  }
+  .title {
+    display: block;
+    font-weight: 400;
+  }
+  svg {
+    color: $darkDefault;
+  }
+}
+// MSG URGENCY IN CTA
+%trigger-area {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  svg {
+    color: $lightGray;
+  }
+  span {
+    display: block;
+    font-size: 0.875rem;
+    font-weight: 400;
+    color: $lightGray;
+  }
+}
+// TITLE SECTION
+%top-title {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 0.875rem;
+  max-width: 37rem;
+  margin-inline: auto;
+  .tag {
+    display: block;
+    font-family: "Oxanium", sans serif;
+    font-size: 0.75rem;
+    font-weight: 300;
+    letter-spacing: 0.25rem;
+    line-height: 1;
+    text-transform: uppercase;
+    color: $lightDefault;
+    background: $gradientBoxTag;
+    padding: 0.5rem 2rem;
+    width: fit-content;
+    border: $borderBoxTransparent;
+    border-radius: 0.25rem;
+    -webkit-border-radius: 0.25rem;
+    -moz-border-radius: 0.25rem;
+    -ms-border-radius: 0.25rem;
+    -o-border-radius: 0.25rem;
+  }
+  .title {
+    font-size: clamp(1.5rem, 4vw, 2rem);
+    font-weight: 300;
+    color: $lightDefault;
+    text-align: center;
+    line-height: 1.4;
+    strong {
+      font-family: "Oxanium", sans serif;
+      font-weight: 300;
+      background: $gradientAccent;
+      background-clip: text;
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+    }
+  }
+}

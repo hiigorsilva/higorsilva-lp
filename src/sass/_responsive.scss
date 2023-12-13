@@ -1,0 +1,152 @@
+@media (max-width: 1311px) {
+  .services .container .cards {
+    justify-content: center;
+    gap: 3rem;
+  }
+  .services .container .cards .card {
+    max-width: 40rem;
+  }
+}
+@media (max-width: 1180px) {
+  .portfolio .container .projects {
+    flex-direction: column;
+    align-items: center;
+  }
+  .portfolio .container .projects .item {
+    max-width: 43rem;
+  }
+  .portfolio .container .projects .item:nth-child(odd) {
+    margin-top: 0;
+  }
+  .target .container::after {
+    display: none;
+  }
+  .target .container::before {
+    display: none;
+  }
+  .about .container::before {
+    display: none;
+  }
+}
+@media (max-width: 1024px) {
+  .hero .container {
+    padding-top: 2rem;
+  }
+  .hero .arrow-down {
+    display: none;
+  }
+  .hero::after {
+    display: none;
+  }
+  .hero .container {
+    flex-direction: column;
+    align-items: center;
+  }
+  .hero .container .headline {
+    max-width: 43rem;
+    text-align: center;
+  }
+  .hero .container .headline .cta-area {
+    align-items: center;
+  }
+  .hero .container .img-hero img {
+    margin-top: 0;
+  }
+  .portfolio .container .projects {
+    margin-block: 3rem;
+  }
+  .storytelling .container .content {
+    flex-direction: column;
+    align-items: center;
+    gap: 2rem;
+    margin-block: 3rem;
+  }
+  .storytelling .container .content .rightside p {
+    text-align: center;
+  }
+  .process .container .content {
+    flex-direction: column;
+    align-items: center;
+    margin-block: 3rem;
+  }
+  .process .container .content .leftside {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: -4rem;
+  }
+  .process .container .content .rightside {
+    align-items: center;
+    min-width: 0rem;
+  }
+  .process .container .content .rightside .stage {
+    max-width: 40rem;
+  }
+  .process .container .content .rightside .stage .number img {
+    max-height: 6.5rem;
+  }
+  .process .container .content .rightside .stage .card {
+    max-width: none;
+  }
+}
+@media (max-width: 768px) {
+  .hero,
+  .portfolio,
+  .storytelling,
+  .process,
+  .services,
+  .about,
+  .faq {
+    padding-block: 5rem;
+  }
+  .hero .container .headline .promisse h1.title {
+    line-height: 1.4;
+  }
+  .hero .container .headline .promisse p {
+    font-size: 1rem;
+  }
+  .target .container .box {
+    flex-direction: column;
+    align-items: center;
+    gap: 4rem;
+  }
+  .target .container .box .leftside {
+    max-width: none;
+  }
+  .target .container .box .rightside {
+    flex-direction: column;
+    align-items: center;
+  }
+  .target .container .box .rightside li {
+    max-width: none;
+  }
+  .cta-final .container .box::after {
+    display: none;
+  }
+}
+@media (max-width: 500px) {
+  .target .container .box {
+    padding: 2rem;
+    gap: 3rem;
+  }
+  .target .container .box .leftside .title {
+    font-size: 1.25rem;
+  }
+  .target .container .box .leftside,
+  .target .container .box .rightside li {
+    gap: 0.5rem;
+  }
+  .target .container .box .rightside li .title {
+    font-size: 1.125rem;
+  }
+}
+@media (max-width: 430px) {
+  .hero .container .headline .cta-area .cta .title,
+  .cta-final .container .box .content .cta-area .cta .title {
+    font-size: 0.875rem;
+  }
+  .process .container .content .rightside .stage {
+    flex-direction: column;
+    gap: 0;
+  }
+}
