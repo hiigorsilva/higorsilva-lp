@@ -206,6 +206,18 @@
         outline: none;
         border: 0;
         cursor: pointer;
+        transition: all 0.2s ease;
+        -webkit-transition: all 0.2s ease;
+        -moz-transition: all 0.2s ease;
+        -ms-transition: all 0.2s ease;
+        -o-transition: all 0.2s ease;
+        &:hover {
+          transform: scale(0.98);
+          -webkit-transform: scale(0.98);
+          -moz-transform: scale(0.98);
+          -ms-transform: scale(0.98);
+          -o-transform: scale(0.98);
+        }
         &:nth-child(odd) {
           margin-top: 7.5rem;
         }
