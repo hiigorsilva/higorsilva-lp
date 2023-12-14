@@ -2,6 +2,7 @@
 @import "fonts";
 @import "variables";
 @import "utilities";
+@import "scrollbar";
 
 .hero,
 .portfolio,
@@ -148,6 +149,7 @@
   }
 }
 .portfolio {
+  position: relative;
   padding-block: 7.5rem;
   background-color: $darkDefault;
   .container {
@@ -254,6 +256,61 @@
       }
       .trigger-area {
         @extend %trigger-area;
+      }
+    }
+  }
+  .popup-wrapper {
+    display: none;
+    justify-content: center;
+    align-items: center;
+    background: rgba(0, 0, 0, 0.8);
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    width: 100vw;
+    height: 100vh;
+    z-index: 10;
+    .popup {
+      position: relative;
+      height: 90%;
+      max-width: 1000px;
+      width: 90%;
+      .popup-close {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: absolute;
+        top: 0;
+        right: -4rem;
+        background: $accentDefault;
+        color: $lightDefault;
+        padding: 0.25rem;
+        outline: 0;
+        border: 0;
+        border-radius: 0.25rem;
+        -webkit-border-radius: 0.25rem;
+        -moz-border-radius: 0.25rem;
+        -ms-border-radius: 0.25rem;
+        -o-border-radius: 0.25rem;
+        cursor: pointer;
+      }
+      .popup-content {
+        max-height: 100%;
+        width: auto;
+        overflow-y: scroll;
+        border: $borderBoxTransparent;
+        border-radius: 0.25rem;
+        -webkit-border-radius: 0.25rem;
+        -moz-border-radius: 0.25rem;
+        -ms-border-radius: 0.25rem;
+        -o-border-radius: 0.25rem;
+        img {
+          background-position-y: top;
+          width: 100%;
+          height: auto;
+        }
       }
     }
   }
