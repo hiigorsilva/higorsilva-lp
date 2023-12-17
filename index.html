@@ -34,13 +34,16 @@
   <link href="./src/fonts/Oxanium-Regular.woff2" rel="preload" as="font" type="font/woff2" crossorigin>
   <!-- STYLESHEETS -->
   <link rel="stylesheet" href="./src/css/style.css">
+  <!-- CDN -->
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
   <title>Landing Pages Profissionais | Higor Silva</title>
 </head>
 
 <body>
   <section class="hero">
     <div class="container">
-      <div class="headline">
+      <div class="headline" data-aos="fade-right">
         <div class="promisse">
           <h1 class="title">
             <strong class="mark title">Aumente suas vendas em 30% ou mais</strong> em 15 dias e nunca mais fique sem
@@ -93,7 +96,7 @@
         </h2>
       </div>
       <div class="projects">
-        <button class="item" onclick="openPopup(0)">
+        <button class="item" onclick="openPopup(0)" data-aos="fade-up-right" data-aos-delay="100">
           <div class="overlay">
             <img src="./src/images/project-1.jpg" alt="Página de portfólio">
           </div>
@@ -106,7 +109,7 @@
             </span>
           </div>
         </button>
-        <button class="item" onclick="openPopup(1)">
+        <button class="item" onclick="openPopup(1)" data-aos="fade-up-left" data-aos-delay="200">
           <div class="overlay">
             <img src="./src/images/project-2.jpg" alt="Página de portfólio">
           </div>
@@ -119,7 +122,7 @@
             </span>
           </div>
         </button>
-        <button class="item" onclick="openPopup(2)">
+        <button class="item" onclick="openPopup(2)" data-aos="fade-up-right" data-aos-delay="100">
           <div class="overlay">
             <img src="./src/images/project-3.jpg" alt="Página de portfólio">
           </div>
@@ -132,7 +135,7 @@
             </span>
           </div>
         </button>
-        <button class="item" onclick="openPopup(3)">
+        <button class="item" onclick="openPopup(3)" data-aos="fade-up-left" data-aos-delay="200">
           <div class="overlay">
             <img src="./src/images/project-4.jpg" alt="Página de portfólio">
           </div>
@@ -221,10 +224,10 @@
         </h2>
       </div>
       <div class="content">
-        <div class="leftside">
+        <div class="leftside" data-aos="fade-up-left" data-aos-delay="100">
           <img data-tilt data-tilt data-tilt-max="5" src="./src/images/img-graphic.svg" alt="Gráfico de conversão">
         </div>
-        <div class="rightside">
+        <div class="rightside" data-aos="fade-up-right" data-aos-delay="200">
           <p>
             Você, infoprodutor ou prestador de serviços! Já parou pra pensar <strong>quanto dinheiro está escorrendo
               pelos dedos</strong> por causa
@@ -290,12 +293,12 @@
         </p>
       </div>
       <div class="content">
-        <div class="leftside">
+        <div class="leftside" data-aos="zoom-in-down">
           <img data-tilt data-tilt data-tilt-max="5" src="./src/images/img-process.svg"
             alt="Lâmpada simbolizando de criatividade e processo">
         </div>
         <ul class="rightside">
-          <li class="stage">
+          <li class="stage" data-aos="fade-up-left" data-aos-delay="200">
             <div class="number">
               <img src="./src/icons/process-one.svg" alt="Número 1">
             </div>
@@ -309,7 +312,7 @@
               </p>
             </div>
           </li>
-          <li class="stage">
+          <li class="stage" data-aos="fade-up-right" data-aos-delay="100">
             <div class="number">
               <img src="./src/icons/process-two.svg" alt="Número 2">
             </div>
@@ -323,7 +326,7 @@
               </p>
             </div>
           </li>
-          <li class="stage">
+          <li class="stage" data-aos="fade-up-left" data-aos-delay="200">
             <div class="number">
               <img src="./src/icons/process-three.svg" alt="Número 3">
             </div>
@@ -337,7 +340,7 @@
               </p>
             </div>
           </li>
-          <li class="stage">
+          <li class="stage" data-aos="fade-up-right" data-aos-delay="100">
             <div class="number">
               <img src="./src/icons/process-four.svg" alt="Número 4">
             </div>
@@ -370,7 +373,7 @@
         </h2>
       </div>
       <ul class="cards">
-        <li class="card">
+        <li class="card" data-aos="fade-right">
           <div class="icon">
             <svg width="22" height="22" viewBox="0 0 22 22" fill="none" xmlns="http://www.w3.org/2000/svg">
               <path
@@ -386,7 +389,7 @@
             serviço.
           </p>
         </li>
-        <li class="card">
+        <li class="card" data-aos="fade-up">
           <div class="icon">
             <svg width="22" height="22" viewBox="0 0 22 22" fill="none" xmlns="http://www.w3.org/2000/svg">
               <path
@@ -401,7 +404,7 @@
             clientes.
           </p>
         </li>
-        <li class="card">
+        <li class="card" data-aos="fade-left">
           <div class="icon">
             <svg width="22" height="22" viewBox="0 0 22 22" fill="none" xmlns="http://www.w3.org/2000/svg">
               <path
@@ -472,13 +475,13 @@
   </section>
   <section class="about">
     <div class="container">
-      <div class="top-title">
+      <div class="top-title" data-aos="fade-up">
         <span class="tag">Quem sou eu?</span>
         <h2 class="title">
           <strong>Sou o Higor</strong>, especialista em páginas que convertem
         </h2>
       </div>
-      <div class="text">
+      <div class="text" data-aos="fade-down">
         <p>
           Com expertise em criação de Landing Pages de alta conversão, eu ajudo infoprodutores e prestadores de serviços
           a
@@ -500,7 +503,7 @@
         </h2>
       </div>
       <div class="cards">
-        <details class="ask" open>
+        <details class="ask" data-aos="fade-up" open>
           <summary>
             <span>Quais as formas de pagamento?</span>
             <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -514,7 +517,7 @@
               desconto</span> e <span>50% no início e 50% na entrega.</span>
           </p>
         </details>
-        <details class="ask">
+        <details class="ask" data-aos="fade-up">
           <summary>
             <span>Qual o prazo para que eu tenha minha página pronta?</span>
             <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -528,7 +531,7 @@
             pronta de <span>5 a 7 dias úteis.</span>
           </p>
         </details>
-        <details class="ask">
+        <details class="ask" data-aos="fade-up">
           <summary>
             <span>O que devo enviar para começar a produção das páginas?</span>
             <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -549,7 +552,7 @@
             <li><span>Códigos de integração</span> (Pixel do Facebook, Google Tag Manager, etc).</li>
           </ul>
         </details>
-        <details class="ask">
+        <details class="ask" data-aos="fade-up">
           <summary>
             <span>Preciso contratar domínio e hospedagem?</span>
             <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -563,7 +566,7 @@
             de confiança para a contratação de ambos.
           </p>
         </details>
-        <details class="ask">
+        <details class="ask" data-aos="fade-up">
           <summary>
             <span>Qual a política de reembolso?</span>
             <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -580,7 +583,7 @@
             Após o prazo estipulado de cancelamento, não haverá reembolso.
           </p>
         </details>
-        <details class="ask">
+        <details class="ask" data-aos="fade-up">
           <summary>
             <span>Como as Landing Pages realmente aumentarão minhas vendas?</span>
             <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -597,7 +600,7 @@
             claros e software de monitoramento para identificar pontos de melhorias nas conversões.
           </p>
         </details>
-        <details class="ask">
+        <details class="ask" data-aos="fade-up">
           <summary>
             <span>Eu precisarei atualizar algum plugin da Landing Page?</span>
             <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -650,8 +653,9 @@
     target="_blank" rel="noopener noreferrer">
     <img src="./src/icons/btn-whats.svg" alt="Botão de dúvida para whatsapp">
   </a>
+  <script src="./src/js/aos-init.js"></script>
   <script defer src="./src/js/app.js"></script>
-  <script defer src="src/js/vanilla-tilt.js"></script>
+  <script defer src="./src/js/vanilla-tilt.js"></script>
 </body>
 
 </html>
