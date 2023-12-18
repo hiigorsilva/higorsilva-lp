@@ -18,10 +18,10 @@ function openPopup(index) {
   const popup = document.querySelector(".popup-wrapper")
   const popupImage = document.querySelector("#project")
   const projectUrl = [
-    "./src/images/project-1-full.jpg",
-    "./src/images/project-2-full.jpg",
-    "./src/images/project-3-full.jpg",
-    "./src/images/project-4-full.jpg",
+    "./src/images/project-1-full.webp",
+    "./src/images/project-2-full.webp",
+    "./src/images/project-3-full.webp",
+    "./src/images/project-4-full.webp",
   ]
 
   popupImage.src = projectUrl[index]
