@@ -1097,6 +1097,9 @@
   -moz-transition: all 0.2s ease-out;
   -ms-transition: all 0.2s ease-out;
   -o-transition: all 0.2s ease-out;
+  span {
+    display: none;
+  }
   &:hover::after {
     position: absolute;
     top: 50%;
